@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete001;
 
 /**
  *
@@ -34,8 +34,8 @@ public class Ejecutor {
         
         // Se hace uso de los métodos obtener para presentar en pantalla lo 
         // requerido
-        System.out.printf("Factura de Teléfono\n\nNúmero de teléfono: %s\n"
-                + "Minutos mensuales: %.2f\nValor por minuto: %.2f\n"
+        System.out.printf("Factura de Teléfono\n\n\tNúmero de teléfono: %s\n"
+                + "Minutos mensuales: %.2f\n\tValor por minuto: %.2f\n"
                 + "Valor a cancelar: %.2f\n", ft.obtenerNumeroTelefono(),
                 ft.obtenerMinutosMes(), ft.obtenerValorMinuto(),
                 ft.obtenerValorFactura());
